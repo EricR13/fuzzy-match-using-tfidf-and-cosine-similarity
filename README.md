@@ -30,17 +30,10 @@ are common to both datasets, that is, the businesses that have a name and addres
 Since the business names and addresses don't align perfectly between these datasets, you will need to develop an algorithm that can find approximate matches. When your algorithm runs, it should produce a list of triplets consisting of the entity_id from the left dataset, the business_id from the right dataset, and a confidence score. The confidence score should have values between 0 and 1.0 and convey a sense of confidence of the match. An identical match should have a score of 1.0.
 
 
-Your submission should consist of matches that have a high degree of confidence, eg greater than 0.8.
+Your submission should consist of matches that have a high degree of confidence, eg greater than 0.8. The submission should be in the format of a csv file which contains the ids of matched records in both datasets and the confidence score.
 
 
-Here is a sample submission (as a csv file) for the examples shown above, where the confidence scores are just examples and do not come from an actual calculation.
 
-
-left_dataset, right_dataset, confidence_score
-47149, 59483, 1.0
-15883, 11, 0.99
-15925, 2206, 0.95
-89855, 72, 0.91
 
 
 The technical work that you are expected to conduct as part of this project is:
