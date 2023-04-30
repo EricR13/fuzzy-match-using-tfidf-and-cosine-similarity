@@ -1,6 +1,6 @@
 # fuzzy_matching_using_cosine_similarity
 
-APAN 5210 Final Project
+Final Project
 
 
 Motivation:
